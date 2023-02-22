@@ -139,7 +139,12 @@
     "url": "https://github.com/johnsonandjohnson/bodiless-js.git"
   },
   "engines": {
-    "node": ">=16.9"
+    "node": ">=16.9",
+    "npm": ">=8.0.0"
   },
+  "workspaces": [
+    "sites/*",
+    "packages/*"
+  ],
   "author": ""
 }
